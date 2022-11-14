@@ -1,0 +1,293 @@
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/session[39m
+[35m[HTTP][39m [90m{"capabilities":{"alwaysMatch":{"platformName":"iOS","appium:automationName":"XCuiTest","appium:deviceName":"iPhone 13 Pro Max","appium:platformVersion":"15.5","appium:app":"./ios-apps/TestApp.app","appium:udid":"D0BF7DA3-F7DD-4A74-8DF7-A400F5C997A4","appium:fullReset":false,"appium:noReset":false,"appium:language":"en"},"firstMatch":[{}]},"desiredCapabilities":{"platformName":"iOS","appium:automationName":"XCuiTest","appium:deviceName":"iPhone 13 Pro Max","appium:platformVersion":"15.5","appium:app":"./ios-apps/TestApp.app","appium:udid":"D0BF7DA3-F7DD-4A74-8DF7-A400F5C997A4","appium:fullReset":false,"appium:noReset":false,"appium:language":"en"}}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.createSession() with args: [{"platformName":"iOS","appium:automationName":"XCuiTest","appium:deviceName":"iPhone 13 Pro Max","appium:platformVersion":"15.5","appium:app":"./ios-apps/TestApp.app","appium:udid":"D0BF7DA3-F7DD-4A74-8DF7-A400F5C997A4","appium:fullReset":false,"appium:noReset":false,"appium:language":"en"},null,{"alwaysMatch":{"platformName":"iOS","appium:automationName":"XCuiTest","appium:deviceName":"iPhone 13 Pro Max","appium:platformVersion":"15.5","appium:app":"./ios-apps/TestApp.app","appium:udid":"D0BF7DA3-F7DD-4A74-8DF7-A400F5C997A4","appium:fullReset":false,"appium:noReset":false,"appium:language":"en"},"firstMatch":[{}]}]
+[debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1668469587406 (00:46:27 GMT+0100 (Central European Standard Time))
+[35m[Appium][39m Appium v1.22.3 creating new XCUITestDriver (v3.59.0) session
+[debug] [35m[BaseDriver][39m W3C capabilities and MJSONWP desired capabilities were provided
+[debug] [35m[BaseDriver][39m Creating session with W3C capabilities: {
+[debug] [35m[BaseDriver][39m   "alwaysMatch": {
+[debug] [35m[BaseDriver][39m     "platformName": "iOS",
+[debug] [35m[BaseDriver][39m     "appium:automationName": "XCuiTest",
+[debug] [35m[BaseDriver][39m     "appium:deviceName": "iPhone 13 Pro Max",
+[debug] [35m[BaseDriver][39m     "appium:platformVersion": "15.5",
+[debug] [35m[BaseDriver][39m     "appium:app": "./ios-apps/TestApp.app",
+[debug] [35m[BaseDriver][39m     "appium:udid": "D0BF7DA3-F7DD-4A74-8DF7-A400F5C997A4",
+[debug] [35m[BaseDriver][39m     "appium:fullReset": false,
+[debug] [35m[BaseDriver][39m     "appium:noReset": false,
+[debug] [35m[BaseDriver][39m     "appium:language": "en"
+[debug] [35m[BaseDriver][39m   },
+[debug] [35m[BaseDriver][39m   "firstMatch": [
+[debug] [35m[BaseDriver][39m     {}
+[debug] [35m[BaseDriver][39m   ]
+[debug] [35m[BaseDriver][39m }
+[35m[BaseDriver][39m Session created with session id: c0d6b87d-6fe2-4f4b-b82b-a7f8cf9598c0
+[debug] [35m[XCUITest][39m Current user: 'nmadar'
+[debug] [35m[XCUITest][39m Available devices: 
+[debug] [35m[XCUITest][39m No real device with udid 'D0BF7DA3-F7DD-4A74-8DF7-A400F5C997A4'. Looking for simulator
+[35m[iOSSim][39m Constructing iOS simulator for Xcode version 14.1 with udid 'D0BF7DA3-F7DD-4A74-8DF7-A400F5C997A4'
+[35m[XCUITest][39m Determining device to run tests on: udid: 'D0BF7DA3-F7DD-4A74-8DF7-A400F5C997A4', real device: false
+[debug] [35m[BaseDriver][39m Event 'xcodeDetailsRetrieved' logged at 1668469588310 (00:46:28 GMT+0100 (Central European Standard Time))
+[35m[BaseDriver][39m Using local app './ios-apps/TestApp.app'
+[35m[BaseDriver][39m The current application path './ios-apps/TestApp.app' is not absolute and has been rewritten to '/Users/nmadar/Repos/mobile-experiment/ios-apps/TestApp.app'. Consider using absolute paths rather than relative
+[debug] [35m[BaseDriver][39m Event 'appConfigured' logged at 1668469588311 (00:46:28 GMT+0100 (Central European Standard Time))
+[debug] [35m[XCUITest][39m Checking whether app '/Users/nmadar/Repos/mobile-experiment/ios-apps/TestApp.app' is actually present on file system
+[debug] [35m[XCUITest][39m App is present
+[debug] [35m[XCUITest][39m Getting bundle ID from app '/Users/nmadar/Repos/mobile-experiment/ios-apps/TestApp.app': 'io.appium.TestApp'
+[debug] [35m[BaseDriver][39m Event 'resetStarted' logged at 1668469588312 (00:46:28 GMT+0100 (Central European Standard Time))
+[debug] [35m[simctl][39m Error running 'terminate': An error was encountered processing the command (domain=NSPOSIXErrorDomain, code=3):
+Application termination failed.
+FBSSystemService reported failure without an error, possibly because the app is not currently running.
+[35m[XCUITest][39m Reset: failed to terminate Simulator application with id "io.appium.TestApp"
+[35m[XCUITest][39m Not scrubbing third party app in anticipation of uninstall
+[debug] [35m[BaseDriver][39m Event 'resetComplete' logged at 1668469588541 (00:46:28 GMT+0100 (Central European Standard Time))
+[35m[WebDriverAgent][39m Using WDA path: '/Users/nmadar/Repos/mobile-experiment/node_modules/appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent'
+[35m[WebDriverAgent][39m Using WDA agent: '/Users/nmadar/Repos/mobile-experiment/node_modules/appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
+[debug] [35m[IOSSimulatorLog][39m Starting log capture for iOS Simulator with udid 'D0BF7DA3-F7DD-4A74-8DF7-A400F5C997A4' using simctl
+[debug] [35m[BaseDriver][39m Event 'logCaptureStarted' logged at 1668469588846 (00:46:28 GMT+0100 (Central European Standard Time))
+[35m[XCUITest][39m Setting up simulator
+[debug] [35m[iOSSim][39m Checking whether simulator has been run before: yes
+[debug] [35m[XCUITest][39m Setting locale information
+[debug] [35m[iOSSim][39m New language: en
+[debug] [35m[iOSSim][39m No locale updates necessary.
+[debug] [35m[XCUITest][39m No iOS / app preferences to set
+[debug] [35m[XCUITest][39m Setting did not need to be updated
+[debug] [35m[iOSSim][39m Setting preferences of D0BF7DA3-F7DD-4A74-8DF7-A400F5C997A4 Simulator to {"ConnectHardwareKeyboard":false}
+[debug] [35m[iOSSim][39m Setting common Simulator preferences to {"RotateWindowWhenSignaledByGuest":true,"ConnectHardwareKeyboard":false,"PasteboardAutomaticSync":false}
+[debug] [35m[iOSSim][39m Updated D0BF7DA3-F7DD-4A74-8DF7-A400F5C997A4 Simulator preferences at '/Users/nmadar/Library/Preferences/com.apple.iphonesimulator.plist' with {"RotateWindowWhenSignaledByGuest":true,"ConnectHardwareKeyboard":false,"PasteboardAutomaticSync":false,"DevicePreferences":{"D0BF7DA3-F7DD-4A74-8DF7-A400F5C997A4":{"ConnectHardwareKeyboard":false,"SimulatorExternalDisplay":2114,"ChromeTint":"","SimulatorWindowOrientation":"Portrait","SimulatorWindowGeometry":{"6E83ABA2-A333-4CC7-B531-36F5BD976EAC":{"WindowCenter":"{1811, 787}","WindowScale":1},"95F9E8CD-DA82-4540-A944-85D5FC61C148":{"WindowCenter":"{1190, 1230}","WindowScale":1}},"SimulatorWindowRotationAngle":0}}}
+[debug] [35m[iOSSim][39m Got Simulator UI client PID: 48256
+[35m[iOSSim][39m Both Simulator with UDID 'D0BF7DA3-F7DD-4A74-8DF7-A400F5C997A4' and the UI client are currently running
+[debug] [35m[BaseDriver][39m Event 'simStarted' logged at 1668469589470 (00:46:29 GMT+0100 (Central European Standard Time))
+[debug] [35m[XCUITest][39m Verifying application platform
+[debug] [35m[XCUITest][39m CFBundleSupportedPlatforms: ["iPhoneSimulator"]
+[debug] [35m[XCUITest][39m Reset requested. Removing app with id 'io.appium.TestApp' from the device
+[debug] [35m[XCUITest][39m Installing '/Users/nmadar/Repos/mobile-experiment/ios-apps/TestApp.app' on Simulator with UUID 'D0BF7DA3-F7DD-4A74-8DF7-A400F5C997A4'...
+[debug] [35m[XCUITest][39m The app has been installed successfully.
+[debug] [35m[BaseDriver][39m Event 'appInstalled' logged at 1668469591004 (00:46:31 GMT+0100 (Central European Standard Time))
+[debug] [35m[WebDriverAgent][39m No obsolete cached processes from previous WDA sessions listening on port 8100 have been found
+[35m[DevCon Factory][39m Requesting connection for device D0BF7DA3-F7DD-4A74-8DF7-A400F5C997A4 on local port 8100
+[debug] [35m[DevCon Factory][39m Cached connections count: 0
+[35m[DevCon Factory][39m Successfully requested the connection for D0BF7DA3-F7DD-4A74-8DF7-A400F5C997A4:8100
+[debug] [35m[XCUITest][39m Starting WebDriverAgent initialization with the synchronization key 'XCUITestDriver'
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"value":{"message":"WebDriverAgent is ready to accept commands","state":"success","os":{"testmanagerdVersion":28,"name":"iOS","sdkVersion":"16.1","version":"15.5"},"ios":{"simulatorVersion":"15.5","ip":"192.168.100.8"},"ready":true,"build":{"time":"Nov 15 2022 00:18:16","productBundleIdentifier":"com.facebook.WebDriverAgentRunner"}},"sessionId":null}
+[debug] [35m[WebDriverAgent][39m Upgrade timestamp of the currently bundled WDA: 1668467755254
+[debug] [35m[WebDriverAgent][39m Upgrade timestamp of the WDA on the device: undefined
+[35m[WebDriverAgent][39m Will reuse previously cached WDA instance at 'http://127.0.0.1:8100/' with 'com.facebook.WebDriverAgentRunner'. Set the wdaLocalPort capability to a value different from 8100 if this is an undesired behavior.
+[debug] [35m[XCUITest][39m Trying to start WebDriverAgent 2 times with 10000ms interval
+[debug] [35m[XCUITest][39m These values can be customized by changing wdaStartupRetries/wdaStartupRetryInterval capabilities
+[debug] [35m[BaseDriver][39m Event 'wdaStartAttempted' logged at 1668469591106 (00:46:31 GMT+0100 (Central European Standard Time))
+[35m[WebDriverAgent][39m Using provided WebdriverAgent at 'http://127.0.0.1:8100/'
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"value":{"message":"WebDriverAgent is ready to accept commands","state":"success","os":{"testmanagerdVersion":28,"name":"iOS","sdkVersion":"16.1","version":"15.5"},"ios":{"simulatorVersion":"15.5","ip":"192.168.100.8"},"ready":true,"build":{"time":"Nov 15 2022 00:18:16","productBundleIdentifier":"com.facebook.WebDriverAgentRunner"}},"sessionId":null}
+[debug] [35m[BaseDriver][39m Event 'wdaSessionAttempted' logged at 1668469591108 (00:46:31 GMT+0100 (Central European Standard Time))
+[debug] [35m[XCUITest][39m Sending createSession command to WDA
+[debug] [35m[WebDriverAgent][39m Matched '/session' to command name 'createSession'
+[debug] [35m[WebDriverAgent][39m Proxying [POST /session] to [POST http://127.0.0.1:8100/session] with body: {"capabilities":{"firstMatch":[{"bundleId":"io.appium.TestApp","arguments":["-AppleLanguages","(en)","-NSLanguages","(en)"],"environment":{},"eventloopIdleDelaySec":0,"shouldWaitForQuiescence":true,"shouldUseTestManagerForVisibilityDetection":false,"maxTypingFrequency":60,"shouldUseSingletonTestManager":true,"shouldTerminateApp":true,"forceAppLaunch":true,"useNativeCachingStrategy":true,"forceSimulatorSoftwareKeyboardPresence":true}],"alwaysMatch":{}}}
+[debug] [35m[WebDriverAgent][39m Parsed BUILD_DIR configuration value: '/Users/nmadar/Library/Developer/Xcode/DerivedData/WebDriverAgent-fpqpbdzdbtnrfedbmiiwpfakvimh/Build/Products'
+[debug] [35m[WebDriverAgent][39m Got derived data root: '/Users/nmadar/Library/Developer/Xcode/DerivedData/WebDriverAgent-fpqpbdzdbtnrfedbmiiwpfakvimh'
+[debug] [35m[WebDriverAgent][39m Got response with status 200: {"value":{"sessionId":"073A4EB1-B6C8-4355-85A3-3F55AA92C9BB","capabilities":{"device":"iphone","browserName":"TestApp","sdkVersion":"15.5","CFBundleIdentifier":"io.appium.TestApp"}},"sessionId":"073A4EB1-B6C8-4355-85A3-3F55AA92C9BB"}
+[35m[WebDriverAgent][39m Determined the downstream protocol as 'W3C'
+[debug] [35m[BaseDriver][39m Event 'wdaSessionStarted' logged at 1668469597488 (00:46:37 GMT+0100 (Central European Standard Time))
+[debug] [35m[BaseDriver][39m Event 'wdaStarted' logged at 1668469597488 (00:46:37 GMT+0100 (Central European Standard Time))
+[35m[XCUITest][39m Skipping setting of the initial display orientation. Set the "orientation" capability to either "LANDSCAPE" or "PORTRAIT", if this is an undesired behavior.
+[debug] [35m[BaseDriver][39m Event 'orientationSet' logged at 1668469597489 (00:46:37 GMT+0100 (Central European Standard Time))
+[debug] [35m[BaseDriver][39m The value of 'elementResponseAttributes' setting did not change. Skipping the update for it
+[debug] [35m[BaseDriver][39m The value of 'shouldUseCompactResponses' setting did not change. Skipping the update for it
+[35m[Appium][39m New XCUITestDriver session created successfully, session c0d6b87d-6fe2-4f4b-b82b-a7f8cf9598c0 added to master session list
+[debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1668469597490 (00:46:37 GMT+0100 (Central European Standard Time))
+[debug] [35m[W3C (c0d6b87d)][39m Cached the protocol value 'W3C' for the new session c0d6b87d-6fe2-4f4b-b82b-a7f8cf9598c0
+[debug] [35m[W3C (c0d6b87d)][39m Responding to client with driver.createSession() result: {"capabilities":{"webStorageEnabled":false,"locationContextEnabled":false,"browserName":"","platform":"MAC","javascriptEnabled":true,"databaseEnabled":false,"takesScreenshot":true,"networkConnectionEnabled":false,"platformName":"iOS","automationName":"XCuiTest","deviceName":"iPhone 13 Pro Max","platformVersion":"15.5","app":"./ios-apps/TestApp.app","udid":"D0BF7DA3-F7DD-4A74-8DF7-A400F5C997A4","fullReset":false,"noReset":false,"language":"en"}}
+[35m[HTTP][39m [37m<-- POST /session [39m[32m200[39m [90m10088 ms - 509[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/session/c0d6b87d-6fe2-4f4b-b82b-a7f8cf9598c0/appium/start_recording_screen[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C (c0d6b87d)][39m Calling AppiumDriver.startRecordingScreen() with args: [null,"c0d6b87d-6fe2-4f4b-b82b-a7f8cf9598c0"]
+[debug] [35m[XCUITest][39m Executing command 'startRecordingScreen'
+[35m[XCUITest][39m Checking if there is/was a previous screen recording. Set 'forceRestart' option to 'true' if you'd like to skip this step.
+[35m[XCUITest][39m Screen recording is not running. There is nothing to stop.
+[35m[DevCon Factory][39m Releasing connections for D0BF7DA3-F7DD-4A74-8DF7-A400F5C997A4 device on 9100 port number
+[35m[DevCon Factory][39m No cached connections have been found
+[debug] [35m[WebDriverAgent][39m Matched '/appium/settings' to command name 'getSettings'
+[debug] [35m[WebDriverAgent][39m Proxying [GET /appium/settings] to [GET http://127.0.0.1:8100/session/073A4EB1-B6C8-4355-85A3-3F55AA92C9BB/appium/settings] with no body
+[debug] [35m[WebDriverAgent][39m Got response with status 200: {"value":{"boundElementsByIndex":false,"mjpegServerFramerate":10,"screenshotOrientation":"auto","reduceMotion":false,"elementResponseAttributes":"type,label","screenshotQuality":1,"mjpegScalingFactor":100,"keyboardPrediction":0,"defaultActiveApplication":"auto","mjpegServerScreenshotQuality":25,"defaultAlertAction":"","keyboardAutocorrection":0,"useFirstMatch":false,"shouldUseCompactResponses":true,"customSnapshotTimeout":15,"dismissAlertButtonSelector":"","activeAppDetectionPoint":"64.00,64.00","snapshotMaxDepth":50,"waitForIdleTimeout":10,"includeNonModalElements":false,"acceptAlertButtonSelector":"","animationCoolOffTimeout":2},"sessionId":"073A4EB1-B6C8-4355-85A3-3F55AA92C9BB"}
+[35m[DevCon Factory][39m Requesting connection for device D0BF7DA3-F7DD-4A74-8DF7-A400F5C997A4 on local port 9100, device port 9100
+[debug] [35m[DevCon Factory][39m Cached connections count: 1
+[35m[DevCon Factory][39m Successfully requested the connection for D0BF7DA3-F7DD-4A74-8DF7-A400F5C997A4:9100
+[35m[ffmpeg][39m ffmpeg version 5.1.2 Copyright (c) 2000-2022 the FFmpeg developers
+[35m[ffmpeg][39m   built with Apple clang version 14.0.0 (clang-1400.0.29.202)
+[35m[ffmpeg][39m   configuration: --prefix=/opt/homebrew/Cellar/ffmpeg/5.1.2 --enable-shared --enable-pthreads --enable-version3 --cc=clang --host-cflags= --host-ldflags= --enable-ffplay --enable-gnutls --enable-gpl --enable-libaom --enable-libbluray --enable-libdav1d --enable-libmp3lame --enable-libopus --enable-librav1e --enable-librist --enable-librubberband --enable-libsnappy --enable-libsrt --enable-libtesseract --enable-libtheora --enable-libvidstab --enable-libvmaf --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libxvid --enable-lzma --enable-libfontconfig --enable-libfreetype --enable-frei0r --enable-libass --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libspeex --enable-libsoxr --enable-libzmq --enable-libzimg --disable-libjack --disable-indev=jack --enable-videotoolbox --enable-neon
+[35m[ffmpeg][39m 
+[35m[ffmpeg][39m   libavutil      57. 28.100 / 57. 28.100
+[35m[ffmpeg][39m   libavcodec     59. 37.100 / 59. 37.100
+[35m[ffmpeg][39m   libavformat    59. 27.100 / 59. 27.100
+[35m[ffmpeg][39m   libavdevice    59.  7.100 / 59.  7.100
+[35m[ffmpeg][39m 
+[35m[ffmpeg][39m   libavfilter     8. 44.100 /  8. 44.100
+[35m[ffmpeg][39m   libswscale      6.  7.100 /  6.  7.100
+[35m[ffmpeg][39m   libswresample   4.  7.100 /  4.  7.100
+[35m[ffmpeg][39m   libpostproc    56.  6.100 / 56.  6.100
+[35m[ffmpeg][39m 
+[35m[ffmpeg][39m [http @ 0x6000026be480] HTTP error 426 Upgrade Required
+[35m[ffmpeg][39m 
+[35m[ffmpeg][39m http://127.0.0.1:9100: Server returned 4XX Client Error, but not one of 40{0,1,3,4}
+[35m[ffmpeg][39m 
+[35m[XCUITest][39m Screen capture process did not start within 5000ms. Continuing anyway
+[35m[DevCon Factory][39m Releasing connections for D0BF7DA3-F7DD-4A74-8DF7-A400F5C997A4 device on 9100 port number
+[35m[DevCon Factory][39m Found cached connections to release: ["D0BF7DA3-F7DD-4A74-8DF7-A400F5C997A4:9100"]
+[debug] [35m[DevCon Factory][39m Cached connections count: 1
+[debug] [35m[W3C (c0d6b87d)][39m Encountered internal error running command: Error: The screen capture process 'ffmpeg' died unexpectedly. Check server logs for more details
+[debug] [35m[W3C (c0d6b87d)][39m     at ScreenRecorder.start (/Users/nmadar/Repos/mobile-experiment/node_modules/appium/node_modules/appium-xcuitest-driver/lib/commands/recordscreen.js:114:13)
+[debug] [35m[W3C (c0d6b87d)][39m     at XCUITestDriver.startRecordingScreen (/Users/nmadar/Repos/mobile-experiment/node_modules/appium/node_modules/appium-xcuitest-driver/lib/commands/recordscreen.js:296:5)
+[35m[HTTP][39m [37m<-- POST /session/c0d6b87d-6fe2-4f4b-b82b-a7f8cf9598c0/appium/start_recording_screen [39m[31m500[39m [90m5048 ms - 721[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/session/c0d6b87d-6fe2-4f4b-b82b-a7f8cf9598c0/appium/start_recording_screen[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C (c0d6b87d)][39m Calling AppiumDriver.startRecordingScreen() with args: [null,"c0d6b87d-6fe2-4f4b-b82b-a7f8cf9598c0"]
+[debug] [35m[XCUITest][39m Executing command 'startRecordingScreen'
+[35m[XCUITest][39m Checking if there is/was a previous screen recording. Set 'forceRestart' option to 'true' if you'd like to skip this step.
+[35m[XCUITest][39m Screen recording is not running. There is nothing to stop.
+[35m[DevCon Factory][39m Releasing connections for D0BF7DA3-F7DD-4A74-8DF7-A400F5C997A4 device on 9100 port number
+[35m[DevCon Factory][39m No cached connections have been found
+[debug] [35m[WebDriverAgent][39m Matched '/appium/settings' to command name 'getSettings'
+[debug] [35m[WebDriverAgent][39m Proxying [GET /appium/settings] to [GET http://127.0.0.1:8100/session/073A4EB1-B6C8-4355-85A3-3F55AA92C9BB/appium/settings] with no body
+[debug] [35m[WebDriverAgent][39m Got response with status 200: {"value":{"boundElementsByIndex":false,"mjpegServerFramerate":10,"screenshotOrientation":"auto","reduceMotion":false,"elementResponseAttributes":"type,label","screenshotQuality":1,"mjpegScalingFactor":100,"keyboardPrediction":0,"defaultActiveApplication":"auto","mjpegServerScreenshotQuality":25,"defaultAlertAction":"","keyboardAutocorrection":0,"useFirstMatch":false,"shouldUseCompactResponses":true,"customSnapshotTimeout":15,"dismissAlertButtonSelector":"","activeAppDetectionPoint":"64.00,64.00","snapshotMaxDepth":50,"waitForIdleTimeout":10,"includeNonModalElements":false,"acceptAlertButtonSelector":"","animationCoolOffTimeout":2},"sessionId":"073A4EB1-B6C8-4355-85A3-3F55AA92C9BB"}
+[35m[DevCon Factory][39m Requesting connection for device D0BF7DA3-F7DD-4A74-8DF7-A400F5C997A4 on local port 9100, device port 9100
+[debug] [35m[DevCon Factory][39m Cached connections count: 1
+[35m[DevCon Factory][39m Successfully requested the connection for D0BF7DA3-F7DD-4A74-8DF7-A400F5C997A4:9100
+[35m[ffmpeg][39m ffmpeg version 5.1.2 Copyright (c) 2000-2022 the FFmpeg developers
+[35m[ffmpeg][39m   built with Apple clang version 14.0.0 (clang-1400.0.29.202)
+[35m[ffmpeg][39m   configuration: --prefix=/opt/homebrew/Cellar/ffmpeg/5.1.2 --enable-shared --enable-pthreads --enable-version3 --cc=clang --host-cflags= --host-ldflags= --enable-ffplay --enable-gnutls --enable-gpl --enable-libaom --enable-libbluray --enable-libdav1d --enable-libmp3lame --enable-libopus --enable-librav1e --enable-librist --enable-librubberband --enable-libsnappy --enable-libsrt --enable-libtesseract --enable-libtheora --enable-libvidstab --enable-libvmaf --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libxvid --enable-lzma --enable-libfontconfig --enable-libfreetype --enable-frei0r --enable-libass --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libspeex --enable-libsoxr --enable-libzmq --enable-libzimg --disable-libjack --disable-indev=jack --enable-videotoolbox --enable-neon
+[35m[ffmpeg][39m 
+[35m[ffmpeg][39m   libavutil      57. 28.100 / 57. 28.100
+[35m[ffmpeg][39m   libavcodec     59. 37.100 / 59. 37.100
+[35m[ffmpeg][39m   libavformat    59. 27.100 / 59. 27.100
+[35m[ffmpeg][39m   libavdevice    59.  7.100 / 59.  7.100
+[35m[ffmpeg][39m   libavfilter     8. 44.100 /  8. 44.100
+[35m[ffmpeg][39m   libswscale      6.  7.100 /  6.  7.100
+[35m[ffmpeg][39m   libswresample   4.  7.100 /  4.  7.100
+[35m[ffmpeg][39m   libpostproc    56.  6.100 / 56.  6.100
+[35m[ffmpeg][39m 
+[35m[ffmpeg][39m [http @ 0x600001cb0000] HTTP error 426 Upgrade Required
+[35m[ffmpeg][39m 
+[35m[ffmpeg][39m http://127.0.0.1:9100: Server returned 4XX Client Error, but not one of 40{0,1,3,4}
+[35m[ffmpeg][39m 
+[35m[XCUITest][39m Screen capture process did not start within 5000ms. Continuing anyway
+[35m[DevCon Factory][39m Releasing connections for D0BF7DA3-F7DD-4A74-8DF7-A400F5C997A4 device on 9100 port number
+[35m[DevCon Factory][39m Found cached connections to release: ["D0BF7DA3-F7DD-4A74-8DF7-A400F5C997A4:9100"]
+[debug] [35m[DevCon Factory][39m Cached connections count: 1
+[debug] [35m[W3C (c0d6b87d)][39m Encountered internal error running command: Error: The screen capture process 'ffmpeg' died unexpectedly. Check server logs for more details
+[debug] [35m[W3C (c0d6b87d)][39m     at ScreenRecorder.start (/Users/nmadar/Repos/mobile-experiment/node_modules/appium/node_modules/appium-xcuitest-driver/lib/commands/recordscreen.js:114:13)
+[debug] [35m[W3C (c0d6b87d)][39m     at XCUITestDriver.startRecordingScreen (/Users/nmadar/Repos/mobile-experiment/node_modules/appium/node_modules/appium-xcuitest-driver/lib/commands/recordscreen.js:296:5)
+[35m[HTTP][39m [37m<-- POST /session/c0d6b87d-6fe2-4f4b-b82b-a7f8cf9598c0/appium/start_recording_screen [39m[31m500[39m [90m5022 ms - 721[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/session/c0d6b87d-6fe2-4f4b-b82b-a7f8cf9598c0/appium/start_recording_screen[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C (c0d6b87d)][39m Calling AppiumDriver.startRecordingScreen() with args: [null,"c0d6b87d-6fe2-4f4b-b82b-a7f8cf9598c0"]
+[debug] [35m[XCUITest][39m Executing command 'startRecordingScreen'
+[35m[XCUITest][39m Checking if there is/was a previous screen recording. Set 'forceRestart' option to 'true' if you'd like to skip this step.
+[35m[XCUITest][39m Screen recording is not running. There is nothing to stop.
+[35m[DevCon Factory][39m Releasing connections for D0BF7DA3-F7DD-4A74-8DF7-A400F5C997A4 device on 9100 port number
+[35m[DevCon Factory][39m No cached connections have been found
+[debug] [35m[WebDriverAgent][39m Matched '/appium/settings' to command name 'getSettings'
+[debug] [35m[WebDriverAgent][39m Proxying [GET /appium/settings] to [GET http://127.0.0.1:8100/session/073A4EB1-B6C8-4355-85A3-3F55AA92C9BB/appium/settings] with no body
+[debug] [35m[WebDriverAgent][39m Got response with status 200: {"value":{"boundElementsByIndex":false,"mjpegServerFramerate":10,"screenshotOrientation":"auto","reduceMotion":false,"elementResponseAttributes":"type,label","screenshotQuality":1,"mjpegScalingFactor":100,"keyboardPrediction":0,"defaultActiveApplication":"auto","mjpegServerScreenshotQuality":25,"defaultAlertAction":"","keyboardAutocorrection":0,"useFirstMatch":false,"shouldUseCompactResponses":true,"customSnapshotTimeout":15,"dismissAlertButtonSelector":"","activeAppDetectionPoint":"64.00,64.00","snapshotMaxDepth":50,"waitForIdleTimeout":10,"includeNonModalElements":false,"acceptAlertButtonSelector":"","animationCoolOffTimeout":2},"sessionId":"073A4EB1-B6C8-4355-85A3-3F55AA92C9BB"}
+[35m[DevCon Factory][39m Requesting connection for device D0BF7DA3-F7DD-4A74-8DF7-A400F5C997A4 on local port 9100, device port 9100
+[debug] [35m[DevCon Factory][39m Cached connections count: 1
+[35m[DevCon Factory][39m Successfully requested the connection for D0BF7DA3-F7DD-4A74-8DF7-A400F5C997A4:9100
+[35m[ffmpeg][39m ffmpeg version 5.1.2 Copyright (c) 2000-2022 the FFmpeg developers
+[35m[ffmpeg][39m   built with Apple clang version 14.0.0 (clang-1400.0.29.202)
+[35m[ffmpeg][39m   configuration: --prefix=/opt/homebrew/Cellar/ffmpeg/5.1.2 --enable-shared --enable-pthreads --enable-version3 --cc=clang --host-cflags= --host-ldflags= --enable-ffplay --enable-gnutls --enable-gpl --enable-libaom --enable-libbluray --enable-libdav1d --enable-libmp3lame --enable-libopus --enable-librav1e --enable-librist --enable-librubberband --enable-libsnappy --enable-libsrt --enable-libtesseract --enable-libtheora --enable-libvidstab --enable-libvmaf --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libxvid --enable-lzma --enable-libfontconfig --enable-libfreetype --enable-frei0r --enable-libass --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libspeex --enable-libsoxr --enable-libzmq --enable-libzimg --disable-libjack --disable-indev=jack --enable-videotoolbox --enable-neon
+[35m[ffmpeg][39m   libavutil      57. 28.100 / 57. 28.100
+[35m[ffmpeg][39m   libavcodec     59. 37.100 / 59. 37.100
+[35m[ffmpeg][39m   libavformat    59. 27.100 / 59. 27.100
+[35m[ffmpeg][39m   libavdevice    59.  7.100 / 59.  7.100
+[35m[ffmpeg][39m   libavfilter     8. 44.100 /  8. 44.100
+[35m[ffmpeg][39m   libswscale      6.  7.100 /  6.  7.100
+[35m[ffmpeg][39m   libswresample   4.  7.100 /  4.  7.100
+[35m[ffmpeg][39m 
+[35m[ffmpeg][39m   libpostproc    56.  6.100 / 56.  6.100
+[35m[ffmpeg][39m 
+[35m[ffmpeg][39m [http @ 0x600000616700] HTTP error 426 Upgrade Required
+[35m[ffmpeg][39m 
+[35m[ffmpeg][39m http://127.0.0.1:9100: Server returned 4XX Client Error, but not one of 40{0,1,3,4}
+[35m[ffmpeg][39m 
+[35m[XCUITest][39m Screen capture process did not start within 5000ms. Continuing anyway
+[35m[DevCon Factory][39m Releasing connections for D0BF7DA3-F7DD-4A74-8DF7-A400F5C997A4 device on 9100 port number
+[35m[DevCon Factory][39m Found cached connections to release: ["D0BF7DA3-F7DD-4A74-8DF7-A400F5C997A4:9100"]
+[debug] [35m[DevCon Factory][39m Cached connections count: 1
+[debug] [35m[W3C (c0d6b87d)][39m Encountered internal error running command: Error: The screen capture process 'ffmpeg' died unexpectedly. Check server logs for more details
+[debug] [35m[W3C (c0d6b87d)][39m     at ScreenRecorder.start (/Users/nmadar/Repos/mobile-experiment/node_modules/appium/node_modules/appium-xcuitest-driver/lib/commands/recordscreen.js:114:13)
+[debug] [35m[W3C (c0d6b87d)][39m     at XCUITestDriver.startRecordingScreen (/Users/nmadar/Repos/mobile-experiment/node_modules/appium/node_modules/appium-xcuitest-driver/lib/commands/recordscreen.js:296:5)
+[35m[HTTP][39m [37m<-- POST /session/c0d6b87d-6fe2-4f4b-b82b-a7f8cf9598c0/appium/start_recording_screen [39m[31m500[39m [90m5025 ms - 721[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/session/c0d6b87d-6fe2-4f4b-b82b-a7f8cf9598c0/appium/start_recording_screen[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C (c0d6b87d)][39m Calling AppiumDriver.startRecordingScreen() with args: [null,"c0d6b87d-6fe2-4f4b-b82b-a7f8cf9598c0"]
+[debug] [35m[XCUITest][39m Executing command 'startRecordingScreen'
+[35m[XCUITest][39m Checking if there is/was a previous screen recording. Set 'forceRestart' option to 'true' if you'd like to skip this step.
+[35m[XCUITest][39m Screen recording is not running. There is nothing to stop.
+[35m[DevCon Factory][39m Releasing connections for D0BF7DA3-F7DD-4A74-8DF7-A400F5C997A4 device on 9100 port number
+[35m[DevCon Factory][39m No cached connections have been found
+[debug] [35m[WebDriverAgent][39m Matched '/appium/settings' to command name 'getSettings'
+[debug] [35m[WebDriverAgent][39m Proxying [GET /appium/settings] to [GET http://127.0.0.1:8100/session/073A4EB1-B6C8-4355-85A3-3F55AA92C9BB/appium/settings] with no body
+[debug] [35m[WebDriverAgent][39m Got response with status 200: {"value":{"boundElementsByIndex":false,"mjpegServerFramerate":10,"screenshotOrientation":"auto","reduceMotion":false,"elementResponseAttributes":"type,label","screenshotQuality":1,"mjpegScalingFactor":100,"keyboardPrediction":0,"defaultActiveApplication":"auto","mjpegServerScreenshotQuality":25,"defaultAlertAction":"","keyboardAutocorrection":0,"useFirstMatch":false,"shouldUseCompactResponses":true,"customSnapshotTimeout":15,"dismissAlertButtonSelector":"","activeAppDetectionPoint":"64.00,64.00","snapshotMaxDepth":50,"waitForIdleTimeout":10,"includeNonModalElements":false,"acceptAlertButtonSelector":"","animationCoolOffTimeout":2},"sessionId":"073A4EB1-B6C8-4355-85A3-3F55AA92C9BB"}
+[35m[DevCon Factory][39m Requesting connection for device D0BF7DA3-F7DD-4A74-8DF7-A400F5C997A4 on local port 9100, device port 9100
+[debug] [35m[DevCon Factory][39m Cached connections count: 1
+[35m[DevCon Factory][39m Successfully requested the connection for D0BF7DA3-F7DD-4A74-8DF7-A400F5C997A4:9100
+[35m[ffmpeg][39m ffmpeg version 5.1.2 Copyright (c) 2000-2022 the FFmpeg developers
+[35m[ffmpeg][39m   built with Apple clang version 14.0.0 (clang-1400.0.29.202)
+[35m[ffmpeg][39m   configuration: --prefix=/opt/homebrew/Cellar/ffmpeg/5.1.2 --enable-shared --enable-pthreads --enable-version3 --cc=clang --host-cflags= --host-ldflags= --enable-ffplay --enable-gnutls --enable-gpl --enable-libaom --enable-libbluray --enable-libdav1d --enable-libmp3lame --enable-libopus --enable-librav1e --enable-librist --enable-librubberband --enable-libsnappy --enable-libsrt --enable-libtesseract --enable-libtheora --enable-libvidstab --enable-libvmaf --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libxvid --enable-lzma --enable-libfontconfig --enable-libfreetype --enable-frei0r --enable-libass --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libspeex --enable-libsoxr --enable-libzmq --enable-libzimg --disable-libjack --disable-indev=jack --enable-videotoolbox --enable-neon
+[35m[ffmpeg][39m 
+[35m[ffmpeg][39m   libavutil      57. 28.100 / 57. 28.100
+[35m[ffmpeg][39m   libavcodec     59. 37.100 / 59. 37.100
+[35m[ffmpeg][39m   libavformat    59. 27.100 / 59. 27.100
+[35m[ffmpeg][39m   libavdevice    59.  7.100 / 59.  7.100
+[35m[ffmpeg][39m   libavfilter     8. 44.100 /  8. 44.100
+[35m[ffmpeg][39m   libswscale      6.  7.100 /  6.  7.100
+[35m[ffmpeg][39m   libswresample   4.  7.100 /  4.  7.100
+[35m[ffmpeg][39m   libpostproc    56.  6.100 / 56.  6.100
+[35m[ffmpeg][39m 
+[35m[ffmpeg][39m [http @ 0x6000035b0000] HTTP error 426 Upgrade Required
+[35m[ffmpeg][39m 
+[35m[ffmpeg][39m http://127.0.0.1:9100: Server returned 4XX Client Error, but not one of 40{0,1,3,4}
+[35m[ffmpeg][39m 
+[35m[XCUITest][39m Screen capture process did not start within 5000ms. Continuing anyway
+[35m[DevCon Factory][39m Releasing connections for D0BF7DA3-F7DD-4A74-8DF7-A400F5C997A4 device on 9100 port number
+[35m[DevCon Factory][39m Found cached connections to release: ["D0BF7DA3-F7DD-4A74-8DF7-A400F5C997A4:9100"]
+[debug] [35m[DevCon Factory][39m Cached connections count: 1
+[debug] [35m[W3C (c0d6b87d)][39m Encountered internal error running command: Error: The screen capture process 'ffmpeg' died unexpectedly. Check server logs for more details
+[debug] [35m[W3C (c0d6b87d)][39m     at ScreenRecorder.start (/Users/nmadar/Repos/mobile-experiment/node_modules/appium/node_modules/appium-xcuitest-driver/lib/commands/recordscreen.js:114:13)
+[debug] [35m[W3C (c0d6b87d)][39m     at XCUITestDriver.startRecordingScreen (/Users/nmadar/Repos/mobile-experiment/node_modules/appium/node_modules/appium-xcuitest-driver/lib/commands/recordscreen.js:296:5)
+[35m[HTTP][39m [37m<-- POST /session/c0d6b87d-6fe2-4f4b-b82b-a7f8cf9598c0/appium/start_recording_screen [39m[31m500[39m [90m5025 ms - 721[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/session/c0d6b87d-6fe2-4f4b-b82b-a7f8cf9598c0/appium/stop_recording_screen[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C (c0d6b87d)][39m Calling AppiumDriver.stopRecordingScreen() with args: [null,"c0d6b87d-6fe2-4f4b-b82b-a7f8cf9598c0"]
+[debug] [35m[XCUITest][39m Executing command 'stopRecordingScreen'
+[35m[XCUITest][39m Screen recording is not running. There is nothing to stop.
+[debug] [35m[W3C (c0d6b87d)][39m Responding to client with driver.stopRecordingScreen() result: ""
+[35m[HTTP][39m [37m<-- POST /session/c0d6b87d-6fe2-4f4b-b82b-a7f8cf9598c0/appium/stop_recording_screen [39m[32m200[39m [90m2 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/session/c0d6b87d-6fe2-4f4b-b82b-a7f8cf9598c0[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C (c0d6b87d)][39m Calling AppiumDriver.deleteSession() with args: ["c0d6b87d-6fe2-4f4b-b82b-a7f8cf9598c0"]
+[debug] [35m[BaseDriver][39m Event 'quitSessionRequested' logged at 1668469617702 (00:46:57 GMT+0100 (Central European Standard Time))
+[35m[Appium][39m Removing session c0d6b87d-6fe2-4f4b-b82b-a7f8cf9598c0 from our master session list
+[debug] [35m[WebDriverAgent][39m Matched '/session/c0d6b87d-6fe2-4f4b-b82b-a7f8cf9598c0' to command name 'deleteSession'
+[debug] [35m[WebDriverAgent][39m Proxying [DELETE /session/c0d6b87d-6fe2-4f4b-b82b-a7f8cf9598c0] to [DELETE http://127.0.0.1:8100/session/073A4EB1-B6C8-4355-85A3-3F55AA92C9BB] with no body
+[debug] [35m[WebDriverAgent][39m Got response with status 200: {"value":null,"sessionId":null}
+[35m[DevCon Factory][39m Releasing connections for D0BF7DA3-F7DD-4A74-8DF7-A400F5C997A4 device on any port number
+[35m[DevCon Factory][39m Found cached connections to release: ["D0BF7DA3-F7DD-4A74-8DF7-A400F5C997A4:8100"]
+[debug] [35m[DevCon Factory][39m Cached connections count: 0
+[debug] [35m[XCUITest][39m Not clearing log files. Use `clearSystemFiles` capability to turn on.
+[debug] [35m[IOSSimulatorLog][39m Stopping iOS log capture
+[debug] [35m[BaseDriver][39m Event 'quitSessionFinished' logged at 1668469618774 (00:46:58 GMT+0100 (Central European Standard Time))
+[debug] [35m[W3C (c0d6b87d)][39m Received response: null
+[debug] [35m[W3C (c0d6b87d)][39m But deleting session, so not returning
+[debug] [35m[W3C (c0d6b87d)][39m Responding to client with driver.deleteSession() result: null
+[35m[HTTP][39m [37m<-- DELETE /session/c0d6b87d-6fe2-4f4b-b82b-a7f8cf9598c0 [39m[32m200[39m [90m1074 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[Appium][39m Received SIGTERM - shutting down
+[debug] [35m[Appium][39m There are no active sessions for cleanup
